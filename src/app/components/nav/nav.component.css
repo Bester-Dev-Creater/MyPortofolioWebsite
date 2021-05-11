@@ -1,0 +1,48 @@
+html {
+    /*For smooth scrolling behavior*/
+    scroll-behavior: smooth;
+}
+
+.nav-item{
+    font-size: larger;
+}  
+
+img{
+    height:10vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      background-color:black;
+      width: 100%;
+    }
+
+    /* .fixed-top {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    } */
+}
+
+
+.navbar-inverse{
+    /* background-color: lightseagreen; */
+    font-size: small;   
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-inverse img{
+    height: 6vh;
+}
+
+.navbar img{
+    transition: all 0.3s ease;
+}
+
+nav{
+    width: 95%;
+    margin: auto;
+}

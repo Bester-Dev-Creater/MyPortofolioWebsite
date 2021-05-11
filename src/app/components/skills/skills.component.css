@@ -1,0 +1,47 @@
+section{
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    height: 70vh;
+    text-align: center;
+    color: whitesmoke
+}
+
+.card{
+    border: none;
+    text-align: left;
+    background-color: inherit;
+}
+
+
+@media only screen and (max-width: 600px) {
+    section {
+        height: 180vh;
+    }
+
+    h4{
+        letter-spacing: 0rem;
+    }
+    .list-unstyled{
+        width: 95%;
+        margin: auto;
+    }
+}
+
+#Caption{
+    letter-spacing: 1.5rem;
+}
+
+.list-unstyled{
+    width: 50%;
+    margin: auto;
+}
+
+li{
+    padding: 2%;
+}
+
+img{
+    border-radius: 10%;
+    background-position: center;
+    padding: 20px;
+}

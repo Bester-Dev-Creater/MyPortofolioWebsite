@@ -1,0 +1,40 @@
+<section id="contact" data-aos="fade-down" data-aos-easing="ease-in-out-front" data-aos-duration="700">
+    <div id="modal-content-wrapper">
+        <section id="modal-body">
+            <form [formGroup]="this.form" action="#" style="color: black;">
+                <h1 style="color: whitesmoke;">Contact me</h1>
+                <h5 style="color: whitesmoke;" class="d-none d-sm-block">Please fill out the form below and I will get back to you as soon as I can.
+                    Please
+                    allow a couple of days for me to respond</h5>
+                <div class="form-row">
+                    <label for="">Name</label>
+                    <div class="input-data">
+                        <input class="form-control" name="name" placeholder="John Smith" formControlName="name" type="text"
+                            style="color: whitesmoke;">
+                    </div>
+                    <label>Email</label>
+                    <div>
+                        <input class="form-control" placeholder="johnsmith@gmail.com" formControlName="email" type="email"
+                            style="color: whitesmoke;">
+                    </div>
+
+                    <label>Company</label>
+                    <div>
+                        <input class="form-control" placeholder="Example Company" formControlName="company" type="text"
+                            style="color: whitesmoke;">
+                    </div>
+
+                    <label>Message</label>
+                    <div>
+                        <input class="form-control" placeholder="Hello World" formControlName="message" type="text"
+                            style="color: whitesmoke;">
+                    </div>
+
+                </div>
+            </form>
+            <button class="btn btn-primary" type="submit" (click)="actionFunction()">Submit</button>
+
+        </section>
+
+    </div>
+</section>

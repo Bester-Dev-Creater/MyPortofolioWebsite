@@ -1,0 +1,27 @@
+section{
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    height: 80vh;
+    text-align: center;
+}
+
+.card{
+    border: none;
+    text-align: left;
+}
+
+.card:hover{ 
+    box-shadow: 1px 8px 20px grey;
+    transition: .6s ease-in;
+   -webkit-transition:  box-shadow .6s ease-in;
+ }
+
+ @media only screen and (max-width: 600px) {
+    section {
+        height: 85vh;
+    }
+
+    #Caption{
+        letter-spacing: 0.1rem !important;
+    }
+}

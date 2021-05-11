@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "charl-bester"
+  },
+  "targets": {
+    "charl-bester": {
+      "hosting": {
+        "MyPortofolioWebsite": [
+          "charl-bester"
+        ]
+      }
+    }
+  }
+}
