@@ -19,7 +19,7 @@ section{
     }
 
     #Caption{
-        letter-spacing: 0rem !important;
+        /* letter-spacing: 0rem !important; */
     }
     .list-unstyled{
         width: 55% !important;
@@ -32,7 +32,7 @@ section{
 }
 
 #Caption{
-    letter-spacing: 1.5rem;
+    /* letter-spacing: 1.5rem; */
 }
 
 .list-unstyled{

@@ -13,9 +13,9 @@ section{
 }
 
 .card:hover{ 
-    box-shadow: 1px 8px 20px black;
-    transition: .6s ease-in;
-   -webkit-transition:  box-shadow .6s ease-in;
+    box-shadow: 1px 8px 20px #0000004d;
+    transition: .3s ease-in;
+   -webkit-transition:  box-shadow .3s ease-in;
 }
 
 #Caption{
