@@ -12,11 +12,11 @@ section{
     background-color: inherit;
 }
 
-.card:hover{ 
+/* .card:hover{ 
     box-shadow: 1px 8px 20px gray;
     transition: .6s ease-in;
    -webkit-transition:  box-shadow .6s ease-in;
-}
+} */
 
 
 @media only screen and (max-width: 600px) {
