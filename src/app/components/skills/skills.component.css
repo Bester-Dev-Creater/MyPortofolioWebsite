@@ -22,8 +22,12 @@ section{
         letter-spacing: 0rem !important;
     }
     .list-unstyled{
-        width: 95%;
-        margin: auto;
+        width: 55% !important;
+        margin: auto !important;
+        /* text-align: center; */
+    }
+    .card-text{
+        width: 100% !important;
     }
 }
 
