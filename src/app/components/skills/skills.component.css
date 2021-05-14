@@ -19,21 +19,22 @@ section{
     }
 
     #Caption{
-        /* letter-spacing: 0rem !important; */
+        letter-spacing: 0rem !important;
     }
     .list-unstyled{
         width: 55% !important;
         margin: auto !important;
-        /* text-align: center; */
     }
     .card-text{
         width: 100% !important;
     }
 }
 
+
 #Caption{
-    /* letter-spacing: 1.5rem; */
+    letter-spacing: 1.5rem;
 }
+
 
 .list-unstyled{
     width: 50%;
