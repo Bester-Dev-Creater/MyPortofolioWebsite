@@ -39,9 +39,9 @@
                 <div class="form-row">
                     <div class="form-group col">
                         <label>What Is Your Message To Me?</label>
-                        <textarea type="text" formControlName="message" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }"></textarea>
+                        <textarea type="text" formControlName="message" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.message.errors }"></textarea>
                         <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
-                            <div *ngIf="f.firstName.errors.required">Your message is required</div>
+                            <div *ngIf="f.message.errors.required">Your message is required</div>
                         </div>
                     </div>
                 </div>
