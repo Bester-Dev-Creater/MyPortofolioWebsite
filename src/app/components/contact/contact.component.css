@@ -52,11 +52,6 @@ label{
     font-weight: bolder;
 }
 
-button{
-    color: whitesmoke;
-    border: whitesmoke;
-    background-color: black;
-}
 
 input:focus{
     color: whitesmoke !important;
@@ -80,4 +75,50 @@ textarea:focus{
     background-color: black;
     box-shadow: none;
     border-color: whitesmoke;
+}
+
+
+.btn-ripple {
+	display: inline-block;
+	position: relative;
+    background-color: black;
+    /* border-color: inherit; */
+	overflow: hidden;
+	transition: all ease-in-out .5s;
+    border-color: black;
+    box-shadow: none;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.btn-ripple:focus{
+    border-color: black;
+}
+
+.btn-ripple::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 25%;
+	height: 100%;
+	width: 50%;
+	border-radius: 50%;
+	opacity: 0;
+	pointer-events: none;
+	transition: all ease-in-out .5s;
+	transform: scale(5, 5);
+    background-color: whitesmoke;
+    border-color: black;
+    box-shadow: none;
+}
+
+.btn-ripple:active::after {
+	padding: 0;
+	margin: 0;
+	opacity: .9;
+	transition: 0s;
+	transform: scale(0, 0);
+    border-color: none;
+    box-shadow: none;
 }
