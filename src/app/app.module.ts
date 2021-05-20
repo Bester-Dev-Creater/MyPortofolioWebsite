@@ -14,6 +14,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
+
 
 var firebaseConfig = {
   apiKey: "AIzaSyAtc3fWCpGmMa1qHmdyp_BO4yXlUzLqLJ8",
@@ -38,6 +40,7 @@ var firebaseConfig = {
     PersonalProjectsComponent,
     ContactComponent,
     SkillsComponent,
+    ScrollTopComponent,
   ],
   imports: [
     BrowserModule,
