@@ -1,4 +1,4 @@
-section{
+/* section{
     background-color: #5b6467;
     background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
     height: 100%;
@@ -18,9 +18,6 @@ section{
    -webkit-transition:  box-shadow .3s ease-in;
 }
 
-#Caption{
-    letter-spacing: 1.5rem;
-}
 
 @media only screen and (max-width: 600px) {
     section {
@@ -37,4 +34,130 @@ section{
     text-transform: uppercase;
 }
 
+ */
 
+ 
+#Caption{
+    letter-spacing: 1.5rem;
+}
+ section{
+    background-color: #5b6467;
+    background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+    height: 100%;
+    text-align: center;
+    padding: 2%;
+}
+
+#wrapper{
+    width: 95%;
+    margin: auto;
+}
+
+h1{
+    font-weight: 600;
+}
+
+
+
+
+.card{
+    background-color: inherit;
+    border: none;
+    border-radius: 30px;
+}
+
+h1{
+    font-weight: 600;
+}
+
+.btn-ripple {
+    display: inline-block;
+    position: relative;
+    background-color: black;
+     border-color: inherit;
+    overflow: hidden;
+    transition: all ease-in-out .5s;
+    border-color: black;
+    box-shadow: none;
+    border-radius: 25px;
+    font-size: 17pt;
+    color: white;
+    border: none;
+
+}
+
+.btn-ripple:hover {
+
+background-color: rgba(251, 251, 251, 0.2);
+border-color: black;
+}
+
+
+
+.btn-ripple:focus{
+    border-color: black;
+}
+
+.btn-ripple::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all ease-in-out .5s;
+    transform: scale(5, 5);
+    background-color: whitesmoke;
+    border-color: black;
+    box-shadow: none;
+}
+
+.btn-ripple:active::after {
+    padding: 0;
+    margin: 0;
+    opacity: .9;
+    transition: 0s;
+    transform: scale(0, 0);
+    border-color: none;
+    box-shadow: none;
+}
+
+.card-body{
+    line-height: 2;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+
+.nav-link.active{
+    background-color: black;
+    color: white
+}
+
+
+.nav-link{
+    border-radius: 18px;
+    color: black;
+    font-size: 15pt;
+}
+
+.nav-link:hover{
+    background-color: rgb(109,110,112);
+    border-color: black;
+}
+
+ul{
+    border: none;
+}

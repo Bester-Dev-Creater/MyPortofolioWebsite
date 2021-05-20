@@ -3,7 +3,8 @@ footer{
     background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     height: 100%;
     text-align: center;
-    color: whitesmoke
+    color: whitesmoke;
+    /* padding: 2%; */
 }
 
 a{
